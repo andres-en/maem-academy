@@ -1,0 +1,12 @@
+line-length = 120
+target-version = "py311"
+# Auto-generated migration scripts are left as generated.
+extend-exclude = ["migrations/versions", "alembic/versions"]
+
+[lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+ignore = ["E501", "SIM108", "SIM103", "SIM105", "B905", "UP042"]
+
+[lint.flake8-bugbear]
+# FastAPI/Flask dependency-injection defaults are evaluated once by design.
+extend-immutable-calls = ["app.core.deps.require_roles", "fastapi.Depends", "fastapi.Query", "fastapi.File", "fastapi.Form", "fastapi.Body", "fastapi.Path", "fastapi.Header", "fastapi.Cookie", "fastapi.Security"]
