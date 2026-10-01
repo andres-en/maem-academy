@@ -1,6 +1,6 @@
 # MAEM Academy — corporate learning platform (LMS)
 
-[![CI](https://github.com/andres-en/MAEM_academy/actions/workflows/ci.yml/badge.svg)](https://github.com/andres-en/MAEM_academy/actions/workflows/ci.yml)
+[![CI](https://github.com/andres-en/maem-academy/actions/workflows/ci.yml/badge.svg)](https://github.com/andres-en/maem-academy/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
